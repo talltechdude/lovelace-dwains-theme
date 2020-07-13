@@ -4,12 +4,12 @@
 
 #Set lovelace to YAML mode to make frontend completly from yaml files instead from gui editor
 lovelace:
-  mode: yaml
+  mode: storage
   resources: !include_dir_merge_list ../../dwains-theme/resources/
   dashboards:
     dwains-theme:
       mode: yaml
-      title: Dwains Theme
+      title: Our Home
       icon: mdi:alpha-d-box
       show_in_sidebar: true
       filename: dwains-theme-lovelace.yaml
